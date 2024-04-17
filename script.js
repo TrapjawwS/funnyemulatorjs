@@ -1,14 +1,17 @@
-function AddItem()
-{
-    // Create an Option object       
-    var opt = document.createElement("option");        
+var myParent = document.body;
 
-    // Assign text and value to Option object
-    opt.text = "New Value";
-    opt.value = "New Value";
+//Create array of options to be added
+var array = ["Pokemon Emerald"];
 
-    // Add an Option object to Drop Down List Box
-    document.getElementById('MainContent_ddlFilterBooleanOption').options.add(opt);
+//Create and append select list
+var selectList = document.createElement("select");
+selectList.id = "mySelect";
+myParent.appendChild(selectList);
+
+//Create and append the options
+for (var i = 0; i < array.length; i++) {
+    var option = document.createElement("option");
+    option.value = array[i];
+    option.text = array[i];
+    selectList.appendChild(option);
 }
-
-AddItem()
