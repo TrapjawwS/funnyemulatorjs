@@ -1,1 +1,49 @@
 
+<html>
+<div class="game">
+    <div id='game'></div>
+</div>
+
+<header>
+    <form method="post" enctype="multipart/form-data">
+        <label for="file">File</label>
+        <input id="file" name="file" type="file" />
+        <button>Upload</button>
+    </form>
+  </header>
+
+ <script>
+    var myFile = document.getElementById("file");
+ </script> 
+
+<script type='text/javascript'>
+  
+EJS_player = '#game';
+EJS_core = 'gba';
+EJS_startOnLoaded = true;
+EJS_gameUrl = myFile;
+EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/';
+  
+</script>
+<script src='https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js'></script>
+
+<style>
+    .game {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+    
+    #game {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+</style>
+</html>
