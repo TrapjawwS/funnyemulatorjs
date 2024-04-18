@@ -1,0 +1,31 @@
+<body>
+    <form id="HMR3_form">
+        <select id="HMR3_dropdown">
+            <option value="#">Please Choose</option>
+            <option value="https://rawcdn.githack.com/moondoges/cyanide/a02ac068975c5383c3d297c531a85eff04fbcfdf/pokemon_clover.gba">Pokemon Clover</option>
+            <option value="https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/pokemonflorasky.gba">Pokemon Flora Sky</option>
+            <option value="https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/pokemongreen.gba">Pokemon Leaf Green</option>
+            <option value="https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Moon%20Galaxy.zip">Pokemon Moon Galaxy</option>
+        </select>
+        <a href="#" onclick="HMR3_getURL();">Run</a>
+    </form>
+
+    <script>
+        var romdropdown = document.getElementById("HMR3_dropdown");
+
+        var test1 = document.createElement('option');
+        test1.innerText = "New value";
+        test1.setAttribute('value', 'newvalue');
+
+        var test2 = document.createElement('option');
+        test2.innerText = "New valuee";
+        test2.setAttribute('valueee', 'valueeee');
+
+        romdropdown.appendChild(test1);
+
+        romdropdown.appendChild(test2);
+    </script>
+
+<script src="https://rawcdn.githack.com/TrapjawwS/funnyemulatorjs/39f03bd3ca0db0177fb703a1951caea14ff23921/script.js"></script>
+
+</body>

@@ -1,0 +1,45 @@
+<html>
+<head>
+    <style>
+        .game1 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        
+        #game2 {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="HMR3_form">
+        <select id="HMR3_dropdown">
+            <option value="#">Please Choose</option>
+            <option value="https://rawcdn.githack.com/moondoges/cyanide/a02ac068975c5383c3d297c531a85eff04fbcfdf/pokemon_clover.gba">Pokemon Clover</option>
+            <option value="https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/pokemonflorasky.gba">Pokemon Flora Sky</option>
+            <option value="https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/pokemongreen.gba">Pokemon Leaf Green</option>
+            <option value="https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Moon%20Galaxy.zip">Pokemon Moon Galaxy</option>
+        </select>
+        <a href="#" onclick="HMR3_getURL();">Run</a>
+    </form>
+
+    <script src="https://rawcdn.githack.com/TrapjawwS/funnyemulatorjs/39f03bd3ca0db0177fb703a1951caea14ff23921/script.js"></script>
+
+    <div id="HMR_emulatorJS"></div>
+
+    <div class="game">
+        <div id="game"></div>
+    </div>
+</body>
+
+</html>
