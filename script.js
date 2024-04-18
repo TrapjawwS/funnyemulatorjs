@@ -131,7 +131,7 @@ function HMR3_runGame(HMR3_optionValue,HMR3_optionText){
 
 var test1 = document.createElement('option');
 test1.innerText = "Pokemon Dark Worship";
-test1.setAttribute('https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Dark%20Worship%20ENGLISH%20COMPLETE.Gba', 'https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Dark%20Worship%20ENGLISH%20COMPLETE.Gba');
+test1.setAttribute('https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Dark%20Worship%20ENGLISH%20COMPLETE.Gba', 'https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Dark%20Worship%20ENGLISH%20COMPLETE.Gba/');
 
 var test2 = document.createElement('option');
 test2.innerText = "New valuee";
