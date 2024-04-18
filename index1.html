@@ -151,7 +151,6 @@
             })();
         }
 
-
     </script>
 </head>
 
@@ -166,6 +165,22 @@
         </select>
         <a href="#" onclick="HMR3_getURL();">Run</a>
     </form>
+
+    <script>
+        var romdropdown = document.getElementById("HMR3_dropdown");
+
+        var test1 = document.createElement('option');
+        test1.innerText = "New value";
+        test1.setAttribute('value', 'newvalue');
+
+        var test2 = document.createElement('option');
+        test2.innerText = "New valuee";
+        test2.setAttribute('valueee', 'valueeee');
+
+        romdropdown.appendChild(test1);
+
+        romdropdown.appendChild(test2);
+    </script>
 
     <div id="HMR_emulatorJS"></div>
 
