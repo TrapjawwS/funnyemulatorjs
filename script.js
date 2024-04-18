@@ -11,7 +11,7 @@ function HMR3_runGame(HMR3_optionValue,HMR3_optionText){
     EJS_startOnLoaded = true;
     EJS_gameUrl = HMR3_optionValue;
     EJS_pathtodata = "https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/";
-    /*
+    
     (async function() {
         const folderPath = (path) => path.substring(0, path.length - path.split('/').pop().length);
         let scriptPath = (typeof window.EJS_pathtodata === "string") ? window.EJS_pathtodata : folderPath((new URL(document.currentScript.src)).pathname);
@@ -126,7 +126,7 @@ function HMR3_runGame(HMR3_optionValue,HMR3_optionText){
         }
     })();
 
-    */
+    
 }
 
 var romdropdown = document.getElementById("HMR3_dropdown");
