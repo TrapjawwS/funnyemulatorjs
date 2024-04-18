@@ -129,8 +129,6 @@ function HMR3_runGame(HMR3_optionValue,HMR3_optionText){
     
 }
 
-var romdropdown = document.getElementById("HMR3_dropdown");
-
 var test1 = document.createElement('option');
 test1.innerText = "New value";
 test1.setAttribute('value', 'newvalue');
