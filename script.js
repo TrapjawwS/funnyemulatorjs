@@ -1,7 +1,7 @@
 var myParent = document.body;
 
 //Create array of options to be added
-var array = ["Pokemon Emerald"];
+var array = ["Pokemon Emerald", "hi"];
 
 //Create and append select list
 var selectList = document.createElement("select");
