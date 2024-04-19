@@ -1,6 +1,5 @@
 <html>
 <head>
-    
     <style>
         .game1 {
             width: 100%;
@@ -21,7 +20,10 @@
         }
     </style>
 
+    <script src="https://raw.githubusercontent.com/TrapjawwS/funnyemulatorjs/main/script.js"></script>
+
     <script>
+
         function HMR3_getURL(){
             var HMR3_formID = document.getElementById("HMR3_dropdown");
             var HMR3_optionValue = HMR3_formID.value;
@@ -35,7 +37,12 @@
             EJS_startOnLoaded = true;
             EJS_gameUrl = HMR3_optionValue;
             EJS_pathtodata = "https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/";
+            /*var HMR3__emulatorJSscript = "<script src=\"https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js\"></"+"script>";
+            //document.getElementById("HMR_emulatorJS").innerHTML = HMR3__emulatorJSscript;
+            //alert(document.getElementById("HMR_emulatorJS").innerHTML);
+        }
 
+        function HMR3_loader(){*/
             (async function() {
                 const folderPath = (path) => path.substring(0, path.length - path.split('/').pop().length);
                 let scriptPath = (typeof window.EJS_pathtodata === "string") ? window.EJS_pathtodata : folderPath((new URL(document.currentScript.src)).pathname);
@@ -151,28 +158,35 @@
             })();
         }
 
+
     </script>
 </head>
 
 <body>
     <form id="HMR3_form">
         <select id="HMR3_dropdown">
-            <option value="#">Please Choose</option>
-            <option value="https://rawcdn.githack.com/moondoges/cyanide/a02ac068975c5383c3d297c531a85eff04fbcfdf/pokemon_clover.gba">Pokemon Clover</option>
-            <option value="https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/pokemonflorasky.gba">Pokemon Flora Sky</option>
-            <option value="https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/pokemongreen.gba">Pokemon Leaf Green</option>
-            <option value="https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Moon%20Galaxy.zip">Pokemon Moon Galaxy</option>
         </select>
         <a href="#" onclick="HMR3_getURL();">Run</a>
     </form>
-    
-    <script src="https://raw.githubusercontent.com/TrapjawwS/funnyemulatorjs/main/script.js"></script>
 
     <div id="HMR_emulatorJS"></div>
 
     <div class="game">
         <div id="game"></div>
     </div>
+
+    <script>
+        //function HMR3_writeOptions(){
+            var HMR3_dropdownString = "";
+
+            for (i=0;i<HMR3_optionText.length;i++){
+                HMR3_dropdownString += "<option value=\""  + HMR3_optionValue[i] + "\">" + HMR3_optionText[i] + "</option>";
+            }
+            
+            console.log(HMR3_dropdownString);
+            document.getElementById("HMR3_dropdown").innerHTML = HMR3_dropdownString;
+        //}
+    </script>
 </body>
 
 </html>
