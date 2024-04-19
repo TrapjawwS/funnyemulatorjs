@@ -71,7 +71,12 @@ var HMR3_optionText = [
     "Pokemon Shin Red",
     "Pokemon Strike Yellow",
     "Pokemon Yellow Kaizo",
-    "Pokemon Yellow Supreme"
+    "Pokemon Yellow Supreme",
+    "Kirby Mirror",
+    "Pokemon Nightmare In Dreamland",
+    "Mario Kart",
+    "Mario Pinball",
+    "Monopoly"
     
     
 ];
@@ -149,5 +154,10 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GB-Roms/main/Pokemon%20Shin%20Red%20v1.24.5.zip",
     "https://raw.githack.com/vbaemulator/GB-Roms/main/Pokemon%20Strike%20Yellow%20v0.4.zip",
     "https://github.com/vbaemulator/GB-Roms/raw/main/Pokemon%20Strike%20Yellow%20v0.4.zip",
-    "https://raw.githack.com/vbaemulator/GB-Roms/main/Pokemon%20Yellow%20Supreme%20v2.0.zip"
+    "https://raw.githack.com/vbaemulator/GB-Roms/main/Pokemon%20Yellow%20Supreme%20v2.0.zip",
+    "https://raw.githack.com/srojam/gba/gh-pages/Binaries/kirbymirror.gba",
+    "https://raw.githack.com/srojam/gba/gh-pages/Binaries/kirbynightmare.gba",
+    "https://raw.githack.com/srojam/gba/gh-pages/Binaries/mariokart.gba",
+    "https://raw.githack.com/srojam/gba/gh-pages/Binaries/mariopinball.gba",
+    "https://github.com/srojam/gba/raw/gh-pages/Binaries/monopoly.gba"
 ];
