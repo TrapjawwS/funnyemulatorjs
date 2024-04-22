@@ -327,7 +327,12 @@ var HMR3_optionText = [
     "Legend of Zelda, The - The Minish Cap",
     "Double Dragon Advance",
     "Rhythm Tengoku",
-    "Harvest Moon - Friends of Mineral Town"
+    "Harvest Moon - Friends of Mineral Town",
+    "Kuru Kuru Kururin",
+    "Spongebob Squarepants: Revenge of the Flying Dutchman",
+    "Yugioh Worldwide Edition: Stairway to the Destined Duel",
+    "Shrek 2",
+    "Mario vs Donkey Kong"
     
 ];
 
@@ -649,5 +654,10 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Legend%20of%20Zelda,%20The%20-%20The%20Minish%20Cap%20(USA).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Double%20Dragon%20Advance%20(USA).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Rhythm%20Tengoku%20(Japan)%20(Rev%201).zip",
-    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Harvest%20Moon%20-%20Friends%20of%20Mineral%20Town%20(USA).zip"
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Harvest%20Moon%20-%20Friends%20of%20Mineral%20Town%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Kurukuru%20Kururin%20(Europe).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/SpongeBob%20SquarePants%20-%20Revenge%20of%20the%20Flying%20Dutchman%20(USA,%20Europe).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Yu-Gi-Oh!%20-%20Worldwide%20Edition%20-%20Stairway%20to%20the%20Destined%20Duel%20(USA)%20(En,Ja,Fr,De,Es,It).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Shrek%202%20(USA,%20Europe).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Mario%20vs.%20Donkey%20Kong%20(USA,%20Australia).zip"
 ];
