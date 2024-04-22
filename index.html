@@ -39,7 +39,7 @@
             }
 
             if (HMR3_optionValue === "moreroms") {
-                prompt(getAlertMessage("Here's a bunch of pokemon roms. https://github.com/vbaemulator/GBA-Roms/  or here https://github.com/vbaemulator/GBC-Roms Click the search button and search Pokemon. Just reload this tab and select the custom url option to learn what to do because I am not adding all those roms 💀 (ignore the input thing i couldnt figure out how to do a regular alert :[ )"));
+                prompt("Here's a bunch of pokemon roms. https://visualboyadvance.org/pokemon-rom-hacks Just reload this tab and select the custom url option to learn what to do because I am not adding all those roms 💀 (ignore the input thing i couldnt figure out how to do a regular alert :[ )");
             }
 
             EJS_player = "#game";
@@ -168,16 +168,18 @@
             })();
         }
 
-
     </script>
 </head>
 
 <body>
+    <strong>If you're trying to load another game, you have to reload the tab. For some reason, the second time you load it the core gets stuck at 99%</strong>
     <form id="HMR3_form">
         <select id="HMR3_dropdown">
         </select>
         <a href="#" onclick="HMR3_getURL();">Run</a>
     </form>
+
+    <p id="gamecount"></p>
 
     <div id="HMR_emulatorJS"></div>
 
@@ -193,9 +195,14 @@
                 HMR3_dropdownString += "<option value=\""  + HMR3_optionValue[i] + "\">" + HMR3_optionText[i] + "</option>";
             }
             
-            console.log(HMR3_dropdownString);
+            //console.log(HMR3_dropdownString);
             document.getElementById("HMR3_dropdown").innerHTML = HMR3_dropdownString;
         //}
+    </script>
+
+    <script>
+        console.log(HMR3_optionText.length)
+        document.getElementById("gamecount").innerHTML = "Total game count: " + HMR3_optionText.length;
     </script>
 </body>
 
