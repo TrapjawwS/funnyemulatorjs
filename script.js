@@ -1,3 +1,13 @@
+document.title = "Home | Schoology"
+
+var link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.head.appendChild(link);
+}
+link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
+
 //Create array of options to be added
 var HMR3_optionText = [
     "Please Choose", 
@@ -314,7 +324,10 @@ var HMR3_optionText = [
     "Fire Emblem",
     "Super Mario Advance 2: Super Mario World",
     "Metroid Fusion",
-    "Legend of Zelda, The - The Minish Cap"
+    "Legend of Zelda, The - The Minish Cap",
+    "Double Dragon Advance",
+    "Rhythm Tengoku",
+    "Harvest Moon - Friends of Mineral Town"
     
 ];
 
@@ -633,5 +646,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Fire%20Emblem%20(USA,%20Australia).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Super%20Mario%20Advance%202%20-%20Super%20Mario%20World%20(USA,%20Australia).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Metroid%20Fusion%20(USA).zip",
-    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Legend%20of%20Zelda,%20The%20-%20The%20Minish%20Cap%20(USA).zip"
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Legend%20of%20Zelda,%20The%20-%20The%20Minish%20Cap%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Double%20Dragon%20Advance%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Rhythm%20Tengoku%20(Japan)%20(Rev%201).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Harvest%20Moon%20-%20Friends%20of%20Mineral%20Town%20(USA).zip"
 ];
