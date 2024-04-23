@@ -341,7 +341,6 @@ var HMR3_optionText = [
     "Kirby 2",
     "Lego Star Wars 2",
     "Lego Star Wars",
-    "Grimace's Birthday",
     "Super Monkey Ball Jr.",
     "Bonk's Adventure",
     "Board Game Classics",
@@ -352,10 +351,7 @@ var HMR3_optionText = [
     "Street Fighter 3 | 3rd Strike",
     "Marvel VS Capcom 1",
     "Mario Kart 64",
-    "LOZ - Majora's Mask",
-    "Sonic Battle",
-    "Sonic 3d Blast"
-    
+    "Sonic Battle",    
 ];
 
 var HMR3_optionValue = [
@@ -694,14 +690,11 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/seraph/main/games/supermonkeyballjr/super-monkey-ball-jr.zip",
     "archive.org/download/gb-vs-recommended-games/Bonk%27s%20Adventure%20%28USA%29.gb",
     "https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Board%20Game%20Classics%20(USA).zip",
-    "https://rawcdn.githack.com/moondoges/cyanidegames/5d6f41d99f34fc1e2b5a3d1dd0acfdf95237f47b/flowersforcyanide/GB:GBC:GBA/Legend%20of%20Zelda,%20The%20-%20Link_s%20Awakening%20DX.gbc",
     "https://raw.githack.com/TrapjawwS/seraph/main/games/garfieldgetsreal/Garfield%20Gets%20Real%20(USA).zip",
     "https://raw.githack.com/TrapjawwS/seraph/main/games/kirbymassattack/kirby-mass-attack.zip",
     "https://raw.githack.com/thisismyaltaccountt/yes/main/app/stuff/simpsons.zip",
     "https://raw.githack.com/thisismyaltaccountt/stuff/main/sfiii3.zip",
     "https://raw.githack.com/thisismyaltaccountt/yes/main/app/stuff/mvsc.zip",
     "https://raw.githack.com/TrapjawwS/seraph/main/games/mariokart64/mariokart64.zip",
-    "https://rawcdn.githack.com/moondoges/cyanidegames/ae7fafdc36e7213e6a148ce0ec73e31750f49a39/!roms/loz_majoras_mask.z64",
     "https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/sonicbattle.gba",
-    "https://rawcdn.githack.com/moondoges/cyanide/e7c3ba43e780f4f792882a4ad42be11b197560df/Sonic%203D%20Blast.smd"
 ];
