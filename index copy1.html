@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
 
@@ -208,7 +206,9 @@
     <script src="https://raw.githack.com/davidhckh/pokedex/main/javascript/pokemon-list.js"></script>
     <script src="https://raw.githack.com/davidhckh/pokedex/main/javascript/pokemon-info.js"></script>
     <link rel="stylesheet" href="https://raw.githack.com/davidhckh/pokedex/main/style.css">
-    <links rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://unpkg.com/@ungap/custom-elements-builtin"></script>
+	<script src="https://niutech.github.io/x-frame-bypass/x-frame-bypass.js" type="module"></script>
+    <script src="https://raw.githack.com/madrobby/keymaster/master/keymaster.js"></script>
 
     <script>
         function showPage(){
@@ -249,9 +249,7 @@
             //console.log(HMR3_dropdownString);
             document.getElementById("HMR3_dropdown").innerHTML = HMR3_dropdownString;
         //}
-    </script>
 
-    <script>
         console.log(HMR3_optionText.length)
         var gamecount = HMR3_optionText.length - 3;
         document.getElementById("gamecount").innerHTML = "Total game count: " + gamecount;
