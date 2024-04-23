@@ -713,3 +713,15 @@ var HMR3_arcade = [
 var HMR3_N64 = [
     "Mario Kart 64"
 ]
+
+var HMR3_NES = [
+
+]
+
+var HMR3_SNES = [
+
+]
+
+var HMR3_SEGAMS = [
+    
+]
