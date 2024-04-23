@@ -63,11 +63,11 @@
                 gamerun = 0;
             }
 
-            if (HMR3_optionText == "Garfield Gets Real" || HMR3_optionText == "Kirby Mass Attack") {
+            if (HMR3_nds.includes(HMR3_optionText)) {
                 EJS_core = "nds";
-            } if (HMR3_optionText == "The Simpsons Arcade Game" || HMR3_optionText == "Street Fighter 3 | 3rd Strike" || HMR3_optionText == "Marvel VS Capcom 1") {
+            } if (HMR3_arcade.includes(HMR3_optionText)) {
                 EJS_core = "arcade";
-            } if (HMR3_optionText == "Mario Kart 64" || HMR3_optionText == "LOZ - Majora's Mask") {
+            } if (HMR3_N64.includes(HMR3_optionText)) {
                 EJS_core = "n64";
             }
             if (gamerun == 1){

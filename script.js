@@ -698,3 +698,18 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/seraph/main/games/mariokart64/mariokart64.zip",
     "https://rawcdn.githack.com/srojam/gba/58893088e3805baaf716e0af6801aaeeae1a0efb/Binaries/sonicbattle.gba",
 ];
+
+var HMR3_nds = [
+    "Garfield Gets Real",
+    "Kirby Mass Attack"
+]
+
+var HMR3_arcade = [
+    "The Simpsons Arcade Game",
+    "Street Fighter 3 | 3rd Strike",
+    "Marvel VS Capcom 1"
+]
+
+var HMR3_N64 = [
+    "Mario Kart 64"
+]
