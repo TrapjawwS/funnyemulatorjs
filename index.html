@@ -49,6 +49,8 @@
 
             var gamerun = 1;
 
+            var romcore = "gba";
+
             if (HMR3_optionValue == "customlink") {
                 var customurl = prompt("Enter your url. (If you don't know how to get the url, upload your rom to github, copy the url for the raw file, and put it through githack)")
                 HMR3_optionValue = customurl
@@ -61,9 +63,17 @@
                 gamerun = 0;
             }
 
+            if (HMR3_optionText == "Garfield Gets Real" || HMR3_optionText == "Kirby Mass Attack") {
+                romcore = "nds";
+            } if (HMR3_optionText == "The Simpsons Arcade Game" || HMR3_optionText == "Street Fighter 3 | 3rd Strike" || HMR3_optionText == "Marvel VS Capcom 1") {
+                romcore = "arcade";
+            } if (HMR3_optionText == "Mario Kart 64" || HMR3_optionText == "LOZ - Majora's Mask") {
+                romcore = "n64";
+            } if (HMR3_optionText == "Sonic 3d Blast")
+
             if (gamerun == 1){
                 EJS_player = "#game";
-                EJS_core = "gba";
+                EJS_core = romcore;
                 EJS_startOnLoaded = true;
                 EJS_gameUrl = HMR3_optionValue;
                 EJS_pathtodata = "https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/";
