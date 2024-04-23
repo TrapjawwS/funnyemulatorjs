@@ -332,7 +332,10 @@ var HMR3_optionText = [
     "Spongebob Squarepants: Revenge of the Flying Dutchman",
     "Yugioh Worldwide Edition: Stairway to the Destined Duel",
     "Shrek 2",
-    "Mario vs Donkey Kong"
+    "Mario vs Donkey Kong",
+    "Pokemon Unbound",
+    "Pokemon Sun Sky",
+    "Pokemon Moonlight"
     
 ];
 
@@ -659,5 +662,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/SpongeBob%20SquarePants%20-%20Revenge%20of%20the%20Flying%20Dutchman%20(USA,%20Europe).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Yu-Gi-Oh!%20-%20Worldwide%20Edition%20-%20Stairway%20to%20the%20Destined%20Duel%20(USA)%20(En,Ja,Fr,De,Es,It).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Shrek%202%20(USA,%20Europe).zip",
-    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Mario%20vs.%20Donkey%20Kong%20(USA,%20Australia).zip"
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Mario%20vs.%20Donkey%20Kong%20(USA,%20Australia).zip",
+    "https://rawcdn.githack.com/TrapjawwS/seraph/75a901643d7506ed070d7002aa1d91221c2189de/games/pokemonunbound/pokemonunbound.zip",
+    "https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Sun%20Sky.zip",
+    "https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Moonlight.zip"
 ];
