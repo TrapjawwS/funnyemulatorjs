@@ -49,7 +49,7 @@
 
             var gamerun = 1;
 
-            EJS_core = gba;
+            EJS_core = "gba";
 
             if (HMR3_optionValue == "customlink") {
                 var customurl = prompt("Enter your url. (If you don't know how to get the url, upload your rom to github, copy the url for the raw file, and put it through githack)")
@@ -64,11 +64,11 @@
             }
 
             if (HMR3_optionText == "Garfield Gets Real" || HMR3_optionText == "Kirby Mass Attack") {
-                EJS_core = nds;
+                EJS_core = "nds";
             } if (HMR3_optionText == "The Simpsons Arcade Game" || HMR3_optionText == "Street Fighter 3 | 3rd Strike" || HMR3_optionText == "Marvel VS Capcom 1") {
-                EJS_core = arcade;
+                EJS_core = "arcade";
             } if (HMR3_optionText == "Mario Kart 64" || HMR3_optionText == "LOZ - Majora's Mask") {
-                EJS_core = n64;
+                EJS_core = "n64";
             }
             if (gamerun == 1){
                 EJS_player = "#game";
