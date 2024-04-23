@@ -335,7 +335,17 @@ var HMR3_optionText = [
     "Mario vs Donkey Kong",
     "Pokemon Unbound",
     "Pokemon Sun Sky",
-    "Pokemon Moonlight"
+    "Pokemon Moonlight",
+    "Good Boy Galaxy Demo",
+    "Kirby 1",
+    "Kirby 2",
+    "Lego Star Wars 2",
+    "Lego Star Wars",
+    "Grimace's Birthday",
+    "Super Monkey Ball Jr.",
+    "Bonk's Adventure",
+    "Board Game Classics",
+    "LOZ - Link's Awakening"
     
 ];
 
@@ -665,5 +675,15 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Mario%20vs.%20Donkey%20Kong%20(USA,%20Australia).zip",
     "https://rawcdn.githack.com/TrapjawwS/seraph/75a901643d7506ed070d7002aa1d91221c2189de/games/pokemonunbound/pokemonunbound.zip",
     "https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Sun%20Sky.zip",
-    "https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Moonlight.zip"
+    "https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Pokemon%20Moonlight.zip",
+    "https://raw.githack.com/TrapjawwS/seraph/main/games/goodboygalaxy/goodboy-demo-en.gba",
+    "https://raw.githack.com/TrapjawwS/seraph/main/games/kirby1/Kirby.GB",
+    "https://raw.githack.com/TrapjawwS/seraph/main/games/kirby2/Kirby2.GB",
+    "https://raw.githack.com/TrapjawwS/seraph/main/games/legostarwars2gba/legostarwars2.gba",
+    "https://raw.githack.com/TrapjawwS/seraph/main/games/legostarwarsgba/LEGO-StarWars-theVideoGame.gba",
+    "https://rawcdn.githack.com/moondoges/cyanidegames/2b6f82aeaf5312e53bd79d101ad683ade0bd1d8f/grimacebday%20v.1.6.gbc",
+    "https://raw.githack.com/TrapjawwS/seraph/main/games/supermonkeyballjr/super-monkey-ball-jr.zip",
+    "archive.org/download/gb-vs-recommended-games/Bonk%27s%20Adventure%20%28USA%29.gb",
+    "https://rawcdn.githack.com/vbaemulator/GBA-Roms/f8ff9ba91598a5e996f29c7c27342f062faa989d/Board%20Game%20Classics%20(USA).zip",
+    "https://rawcdn.githack.com/moondoges/cyanidegames/5d6f41d99f34fc1e2b5a3d1dd0acfdf95237f47b/flowersforcyanide/GB:GBC:GBA/Legend%20of%20Zelda,%20The%20-%20Link_s%20Awakening%20DX.gbc"
 ];
