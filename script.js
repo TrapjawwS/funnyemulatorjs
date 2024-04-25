@@ -369,7 +369,27 @@ var HMR3_optionText = [
     "Pokemon Snakewood (GORY)",
     "Pokemon Sweet",
     "Pokemon Sweet 2",
-    "Pokemon Wings of Chaos"
+    "Pokemon Wings of Chaos",
+    "Pokemon Azure Platinum",
+    "Pokemon Extended",
+    "Pokemon Fusion 3 (PLAY THIS)",
+    "Pokemon Giritinas Legend",
+    "Pokemon Life Version",
+    "Pokemon Saiph",
+    "Pokemon Crown",
+    "Pokemon Emerald Rogue EX",
+    "Pokemon Fused Dimensions",
+    "Pokemon Indian Ruby",
+    "Pokemon Stranded",
+    "Pokemon The Last Fire Red",
+    "Pokemon Trick or Treat House",
+    "Pokemon Ultimate Fusion (PLAY THIS)",
+    "Pokemon Wally Quest",
+    "Pokemon Destiny Reign of Legends",
+    "Pokemon Resolute",
+    "Pokemon Adventure Red (PLAY THIS)",
+    "Pokemon Vega",
+    "Pokemon Voyager"
 ];
 
 var HMR3_optionValue = [
@@ -732,7 +752,27 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/snakewood-final-fixed.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Sweet%20v1.0.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Poke%CC%81mon%20Sweet%202th.gba",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Wings%20of%20Chaos%20(Alpha%202).zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Wings%20of%20Chaos%20(Alpha%202).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/AzurePlat%20(ENG).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Extended%20v3.5.1.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Fusion%203%20-%20Red&Blue.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Giratinas%20Legend%20Demo%201.0.2%20(English%20Version).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/life-version-a1.9.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/PK%20Saiph%20Full%20v2020%20Patch.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Crown%20(Beta%201%20v9)%20(1)%20(1).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Emerald%20Rogue%20EX%20(v1.3.2a)%20(1).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Fused%20Dimensions%20(v2.3)%20(1).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Indian%20Ruby.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Stranded%20v0.1.7.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20The%20Last%20Fire%20Red%20(v4.0.3).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Trick-or-Treat%20House%20v3d0d7.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Ultimate%20Fusion%20(1).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Pokemon%20Wally%20Quest%20(v1.1).zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/pokemon_ruby_destiny_reign_of_legends_2016_4.1.gba.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/resolute%20v2.91%20+%20fixed.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/U_FR_Adventure_Red_Beta_15_Expansion_Fix_Patch_C.gba.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/vega_20190420.gba.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Voyager%20(v0.3.6)%20(1).zip"
 ];
 
 var HMR3_nds = [
