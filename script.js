@@ -389,7 +389,9 @@ var HMR3_optionText = [
     "Pokemon Resolute",
     "Pokemon Adventure Red (PLAY THIS)",
     "Pokemon Vega",
-    "Pokemon Voyager"
+    "Pokemon Voyager",
+    "Alien Homid (PLAY THIS)",
+    "TMNT"
 ];
 
 var HMR3_optionValue = [
@@ -772,7 +774,9 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/resolute%20v2.91%20+%20fixed.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/U_FR_Adventure_Red_Beta_15_Expansion_Fix_Patch_C.gba.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/vega_20190420.gba.zip",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Voyager%20(v0.3.6)%20(1).zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Voyager%20(v0.3.6)%20(1).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Alien%20Hominid%20(Europe)%20(En,Fr,De,Es,It).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Teenage%20Mutant%20Ninja%20Turtles%20(USA).zip"
 ];
 
 var HMR3_nds = [
