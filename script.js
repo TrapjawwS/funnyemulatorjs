@@ -8,7 +8,7 @@ if (!link) {
 }
 link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
 
-alert("haha no games because michael was misbehaving suck it bozos")
+alert("haha no games because michael was misbehaving suck it bozos maybe you should do your homework for once")
 window.location.replace("https://www.desmos.com/calculator");
 
 //Create array of options to be added
