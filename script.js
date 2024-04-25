@@ -11,6 +11,7 @@ link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/fa
 password = prompt("What's the password?")
 if password == "ligma" {
     alert("good job behaving yourself")
+    alert("Note, remove this on the 1st")
 { else {        
     alert("haha no games because michael was misbehaving suck it bozos maybe you should do your homework for once")
     window.location.replace("https://www.desmos.com/calculator");
