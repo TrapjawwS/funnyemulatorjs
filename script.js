@@ -391,7 +391,16 @@ var HMR3_optionText = [
     "Pokemon Vega",
     "Pokemon Voyager",
     "Alien Homid (PLAY THIS)",
-    "TMNT"
+    "TMNT",
+    "Capcom Classics",
+    "Shrek Super Slam",
+    "Jet Grind Radio",
+    "Lego Racers 2",
+    "M&M's Blast!",
+    "M&M's Break 'Em",
+    "The Simpsons Road Rage",
+    "Super Punch Out",
+    "Super Mario RPG"
 ];
 
 var HMR3_optionValue = [
@@ -776,7 +785,16 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/vega_20190420.gba.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/romhacks/Voyager%20(v0.3.6)%20(1).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Alien%20Hominid%20(Europe)%20(En,Fr,De,Es,It).zip",
-    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Teenage%20Mutant%20Ninja%20Turtles%20(USA).zip"
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Teenage%20Mutant%20Ninja%20Turtles%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Capcom%20Classics%20Mini%20Mix%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Shrek%20-%20Super%20Slam%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Jet%20Grind%20Radio%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/LEGO%20Racers%202%20(USA)%20(En,Fr).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/M&M's%20-%20Blast!%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/M&M's%20-%20Break'%20Em%20(USA)%20(Rev%201).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Simpsons,%20The%20-%20Road%20Rage%20(USA,%20Europe).zip",
+    "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Punch-Out!!.7z",
+    "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20(USA).7z"
 ];
 
 var HMR3_nds = [
@@ -799,6 +817,8 @@ var HMR3_NES = [
 ]
 
 var HMR3_SNES = [
+    "Super Punch Out",
+    "Super Mario RPG"
 
 ]
 
