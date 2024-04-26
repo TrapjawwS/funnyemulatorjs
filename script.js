@@ -8,15 +8,6 @@ if (!link) {
 }
 link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
 
-password = prompt("What's the password?")
-if (password == "ligma") {
-    alert("good job behaving yourself")
-    alert("Note, remove this on the 1st")
-} else {        
-    alert("haha no games because michael was misbehaving suck it bozos maybe you should do your homework for once")
-    window.location.replace("https://www.desmos.com/calculator");
-}
-
 //Create array of options to be added
 var HMR3_optionText = [
     "Please Choose", 
