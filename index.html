@@ -33,7 +33,182 @@
             top: 0;
             left: 0;
             overflow: hidden;
+        } body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
         }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: black; /* Set the background color to black */
+            color: white;
+        }
+
+        #logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            max-width: 100px;
+            max-height: 50px;
+            margin-right: 10px;
+        }
+
+        #itemListText {
+            font-size: 18px;
+            font-family: 'Varela Round', sans-serif; /* Set the font family */
+        }
+
+        #itemInputContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        newItemInput {
+   	        width: calc(100% + 590px); /* Adjust the width here */
+  	        padding: 5px; /* Add some padding for better appearance */
+	        border-radius: 5px; /* Rounded edges with a radius of 5px */
+	        margin-left: -600px; /* Move 300px to the left */
+	    }
+
+	    @media (max-width: 769px) {
+    		#newItemInput {
+        		width: auto; /* Reset width for larger screen sizes */
+        		margin-left: 0; /* Reset margin for larger screen sizes */
+    			}
+		}
+
+        .item-list-container {
+            max-height: calc(100vh - 75px); /* Set max height to (100vh - header height) */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .item-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .item {
+            display: flex;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .item-button {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .remove-button {
+            background-color: #dc3545;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .edit-display-button, .edit-item-button {
+            background-color: #ffc107;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        #addItemButton {
+            background-color: #008000;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Added overlay styles */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8); /* White with some transparency */
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .input-field {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: none;
+                border-radius: 5px;
+                background-color: rgba(44, 62, 80, 0.8);
+                color: #ecf0f1;
+                outline: none;
+            }
+            .sidenav {
+                height: 100%; /* 100% Full-height */
+                width: 0; /* 0 width - change this with JavaScript */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Stay on top */
+                top: 0; /* Stay at the top */
+                left: 0;
+                background-color: #f4f1f1; /* Black*/
+                overflow-x: hidden; /* Disable horizontal scroll */
+                padding-top: 60px; /* Place content 60px from the top */
+                transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+                }
+
+                /* The navigation menu links */
+                .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #0a0a0a;
+                display: block;
+                transition: 0.3s;
+                }
+
+                /* When you mouse over the navigation links, change their color */
+                .sidenav a:hover {
+                color: #020202;
+                }
+
+                /* Position and style the close button (top right corner) */
+                .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+                }
+
+                /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+                #main {
+                transition: margin-left .5s;
+                padding: 20px;
+                }
+
+                /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+                @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav a {font-size: 18px;}
+                }
     </style>
 
     <script src="https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/script.js"></script>
@@ -228,6 +403,66 @@
     </script>
 </head>
 
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <p>Sorry this is a bit finicky :(</p>
+    <input type="checkbox" id="bookmarkletrunneroption" name="bookmarkletrunneroption" value="bookmarklets">
+    <label for="bookmarkletrunneroption"> Hide Bookmarklet Runner</label><br>
+
+    <input type="checkbox" id="aboutblankeroption" name="aboutblankeroption" value="aboutblank">
+    <label for="aboutblankeroption"> Hide About Blanker</label><br>
+  </div>
+
+  <script>
+    let checkbox = document.getElementById("bookmarkletrunneroption");
+    checkbox.addEventListener( "change", () => {
+       if ( checkbox.checked ) {
+        console.log("ok");
+        var page3=document.getElementById("bookmarkletrunner");
+        if(page3.style.display=="none")
+            page3.style.display="block";
+        else 
+            page3.style.display="none";
+       }
+    })
+
+    let checkbox1 = document.getElementById("aboutblankeroption");
+    checkbox1.addEventListener( "change", () => {
+       if ( checkbox1.checked ) {
+        console.log("ok");
+        var page4=document.getElementById("aboutblanker");
+        if(page4.style.display=="none")
+            page4.style.display="block";
+        else 
+            page4.style.display="none";
+       }
+    })
+ </script>
+  
+<script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+
 <body onload="getAllNames()" class="row">
     <strong>If you're trying to load another game, you have to reload the tab. For some reason, the second time you load it the core gets stuck at 99%</strong>
     <br><form id="HMR3_form">
@@ -411,6 +646,167 @@
 
 <script>
     showPage();
+</script>
+
+<span onclick="openNav()">options</span>
+
+<div class="console-box" id="aboutblanker">
+    <h1 class="console-title">about:blank embedder</h1>
+    <p class="console-text">Enter a URL you want to open in an about:blank page below:</p>
+    <input class="input-field" id="url-target" value="" autocomplete="on" type="text" autofocus />
+    <button class="action-button" id="create">Create page</button>
+</div>
+
+<div id="bookmarkletrunner">
+    <div id="itemInputContainer">
+        <input type="text" id="newItemInput" placeholder="Enter the bookmarklet here">
+        <button id="addItemButton">Add Bookmarklet</button>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Added item-list-container div for scrolling -->
+    <div class="item-list-container">
+        <ul id="itemList" class="item-list"></ul>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let updatedItemText;
+            const itemList = document.getElementById('itemList');
+            const newItemInput = document.getElementById('newItemInput');
+            const addButton = document.getElementById('addItemButton');
+            const overlay = document.getElementById('overlay');
+
+            addButton.addEventListener('click', () => {
+                const displayValue = prompt('How do you want the bookmarklet to be called?');
+                if (displayValue === null) {
+                    return;
+                }
+
+                const itemValue = newItemInput.value.trim();
+                if (!itemValue) {
+                    return;
+                }
+
+                addItemToList(displayValue, itemValue);
+                saveItemsToLocalStorage();
+                newItemInput.value = '';
+            });
+
+            function addItemToList(displayValue, itemValue) {
+                const newItem = document.createElement('li');
+                newItem.className = 'item';
+
+                const itemButton = document.createElement('button');
+                itemButton.className = 'item-button';
+                itemButton.textContent = displayValue;
+                itemButton.title = itemValue;
+                itemButton.addEventListener('click', () => {
+                    const selectedItemValue = itemButton.title;
+                    runScript(decodeURIComponent(selectedItemValue));
+                });
+
+                const removeButton = document.createElement('button');
+                removeButton.className = 'remove-button';
+                removeButton.textContent = 'Remove';
+                removeButton.addEventListener('click', () => {
+                    itemList.removeChild(newItem);
+                    saveItemsToLocalStorage();
+                });
+
+                const editDisplayButton = document.createElement('button');
+                editDisplayButton.className = 'edit-display-button';
+                editDisplayButton.textContent = 'Edit Name';
+                editDisplayButton.addEventListener('click', () => {
+                    const newDisplayValue = prompt('Enter the new name:', itemButton.textContent);
+                    if (newDisplayValue !== null) {
+                        itemButton.textContent = newDisplayValue;
+                        saveItemsToLocalStorage();
+                    }
+                });
+
+                const editItemButton = document.createElement('button');
+                editItemButton.className = 'edit-item-button';
+                editItemButton.textContent = 'Edit Bookmarklet';
+                editItemButton.addEventListener('click', () => {
+                    const newItemValue = prompt('Enter the new bookmarklet code:', itemButton.title);
+                    if (newItemValue !== null) {
+                        itemButton.title = newItemValue;
+                        saveItemsToLocalStorage();
+                    }
+                });
+
+                newItem.appendChild(itemButton);
+                newItem.appendChild(removeButton);
+                newItem.appendChild(editDisplayButton);
+                newItem.appendChild(editItemButton);
+
+                itemList.appendChild(newItem);
+            }
+
+            function saveItemsToLocalStorage() {
+                const items = Array.from(document.querySelectorAll('.item-button')).map(button => {
+                    return {
+                        display: button.textContent,
+                        item: button.title,
+                    };
+                });
+                localStorage.setItem('items', JSON.stringify(items));
+            }
+
+            function runScript(selectedItemValue) {
+                // Show the overlay
+                overlay.style.display = 'flex';
+
+                // Function to remove the overlay after the script has finished executing
+                function removeOverlay() {
+                    overlay.style.display = 'none';
+                }
+
+                // Run the script after a 0.5-second delay
+                setTimeout(() => {
+                    try {
+                        // Use eval to execute the script
+                        eval(selectedItemValue);
+                    } catch (error) {
+                        console.error('Error executing script:', error);
+                        alert('An error occured while executing the bookmarklet. Try double checking the code of the bookmarklet.');
+                    }
+
+                    // Remove the overlay
+                    removeOverlay();
+                }, 500); // 500 milliseconds (0.5 seconds) delay
+            }
+
+            // Load items from localStorage on page load
+            const storedItems = localStorage.getItem('items');
+            if (storedItems) {
+                const parsedItems = JSON.parse(storedItems);
+                parsedItems.forEach(item => {
+                    addItemToList(item.display, item.item);
+                });
+            }
+        });
+    </script>
+</div>
+
+<script>
+    var url = document.getElementById("url-target");
+    document.getElementById("create").addEventListener("click", function () {
+        var win = window.open();
+        win.document.body.style.margin = "0";
+        win.document.body.style.height = "100vh";
+        var iframe = win.document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.margin = "0";
+        iframe.referrerpolicy = "no-referrer";
+        iframe.allow = "fullscreen";
+        iframe.src = url.value;
+        win.document.body.appendChild(iframe);
+    });
 </script>
 
 </body>
