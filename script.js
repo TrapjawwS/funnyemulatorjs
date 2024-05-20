@@ -400,7 +400,8 @@ var HMR3_optionText = [
     "M&M's Break 'Em",
     "The Simpsons Road Rage",
     "Super Punch Out",
-    "Super Mario RPG"
+    "Super Mario RPG",
+    "The Binding of Isaac"
 ];
 
 var HMR3_optionValue = [
@@ -794,7 +795,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/M&M's%20-%20Break'%20Em%20(USA)%20(Rev%201).zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Simpsons,%20The%20-%20Road%20Rage%20(USA,%20Europe).zip",
     "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Punch-Out!!.7z",
-    "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20(USA).7z"
+    "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20(USA).7z",
+    "https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf"
 ];
 
 var HMR3_nds = [
@@ -824,4 +826,8 @@ var HMR3_SNES = [
 
 var HMR3_SEGAMS = [
     
+]
+
+var flashgames = [
+    "The Binding of Isaac"
 ]
