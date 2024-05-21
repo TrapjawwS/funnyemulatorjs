@@ -406,7 +406,8 @@ var HMR3_optionText = [
     "The Simpsons Road Rage",
     "Super Punch Out",
     "Super Mario RPG",
-    "The Binding of Isaac"
+    "The Binding of Isaac",
+    "Duck Life 1"
 ];
 
 var HMR3_optionValue = [
@@ -801,8 +802,34 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Simpsons,%20The%20-%20Road%20Rage%20(USA,%20Europe).zip",
     "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Punch-Out!!.7z",
     "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20(USA).7z",
-    "https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf"
+    "https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Duck%20Life%201.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Duck%20Life%202%20-%20World%20Champion.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Duck%20Life%203%20-%20Evolution.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Duck%20Life%204.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Breaking%20the%20Bank.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Escaping%20the%20Prison.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Fleeing%20the%20Complex.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Infiltrating%20the%20Airship.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Stealing%20the%20Diamond.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Super%20Meat%20Boy.swf",
+    "https://github.com/selenite-cc/flasharchive/raw/main/Super%20Smash%20Flash.swf"
 ];
+
+var flashgames = [
+    "The Binding of Isaac",
+    "Duck Life 1",
+    "Duck Life 2 - World Champion",
+    "Duck Life 3 - Evolution",
+    "Duck Life 4",
+    "Henry Stickmin - Breaking the Bank",
+    "Henry Stickmin - Escaping the Prison",
+    "Henry Stickmin - Fleeing the Complex",
+    "Henry Stickmin - Infiltrating the Airship",
+    "Henry Stickmin - Stealing the Diamond",
+    "Super Meat Boy",
+    "Super Smash Flash"
+]
 
 var HMR3_nds = [
     "Garfield Gets Real",
@@ -833,6 +860,4 @@ var HMR3_SEGAMS = [
     
 ]
 
-var flashgames = [
-    "The Binding of Isaac"
-]
+
