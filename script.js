@@ -408,7 +408,17 @@ var HMR3_optionText = [
     "Super Punch Out",
     "Super Mario RPG",
     "The Binding of Isaac",
-    "Duck Life 1"
+    "Duck Life 1",
+    "Duck Life 2 - World Champion",
+    "Duck Life 3 - Evolution",
+    "Duck Life 4",
+    "Henry Stickmin - Breaking the Bank",
+    "Henry Stickmin - Escaping the Prison",
+    "Henry Stickmin - Fleeing the Complex",
+    "Henry Stickmin - Infiltrating the Airship",
+    "Henry Stickmin - Stealing the Diamond",
+    "Super Meat Boy",
+    "Super Smash Flash"
 ];
 
 var HMR3_optionValue = [
