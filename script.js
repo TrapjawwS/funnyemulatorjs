@@ -10,11 +10,12 @@ link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/fa
 
 var serverversion = 1
 
-if (cleintversion == null) {
+if (cleintversion == undefined) {
     alert("Your client is outdated. Please download the new one at https://github.com/TrapjawwS/funnyemulatorjs/tree/main")
 } else if (serverversion>cleintversion) {
     alert("Your client is outdated. Please download the new one at https://github.com/TrapjawwS/funnyemulatorjs/tree/main")
 }
+
 var HMR3_optionText = [
     "Please Choose", 
     "Custom URL",
