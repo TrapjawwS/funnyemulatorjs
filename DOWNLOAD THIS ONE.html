@@ -4,6 +4,12 @@
 <html>
 <head>
 
+    <script>
+        var clientversion = 1
+
+        
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.full.min.js"></script>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
@@ -213,7 +219,7 @@
                     })();
                 }
             } if (gametype == "flash") {
-                document.body.innerHTML = `<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="" width="1000" height="572"><param name="movie" value="https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf"><param name="quality" value="high"><param name="play" value="true"><param name="loop" value="true"><param name="wmode" value="window"><param name="scale" value="showall"><param name="menu" value="true"><param name="devicefont" value="false"><param name="salign" value=""><param name="allowScriptAccess" value="false"></object>`;
+                document.getElementById("flashgames").innerHTML+= '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="" width="1000" height="572"><param name="movie" value="https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf"><param name="quality" value="high"><param name="play" value="true"><param name="loop" value="true"><param name="wmode" value="window"><param name="scale" value="showall"><param name="menu" value="true"><param name="devicefont" value="false"><param name="salign" value=""><param name="allowScriptAccess" value="false"></object>'
             }
         }
 
@@ -242,6 +248,7 @@
 
 <body onload="getAllNames()" class="row">
     <strong>If you're trying to load another game, you have to reload the tab. For some reason, the second time you load it the core gets stuck at 99%</strong>
+    <strong>Also, flash games using the Ruffle emulator might take a bit to load. Please be patient</strong>
     <br><form id="HMR3_form">
         <select id="HMR3_dropdown">
         </select>
@@ -269,6 +276,8 @@
 
         //}
     </script>
+
+    <div id="flashgames"></div>
 
     <script>
         console.log(HMR3_optionText.length)

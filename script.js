@@ -8,7 +8,12 @@ if (!link) {
 }
 link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
 
-//Create array of options to be added
+var serverversion = 1
+
+if (serverversion>clientversion || clientversion == null) {
+    alert("Your client is outdated. Please download the new one at https://github.com/TrapjawwS/funnyemulatorjs/tree/main")
+}
+
 var HMR3_optionText = [
     "Please Choose", 
     "Custom URL",
