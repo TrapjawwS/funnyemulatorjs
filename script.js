@@ -807,17 +807,17 @@ var HMR3_optionValue = [
     "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Punch-Out!!.7z",
     "https://raw.githack.com/dolchi21-retroarch/snes-roms/master/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20(USA).7z",
     "https://trapjawws.github.io/josh/The%20Binding%20of%20Isaac.swf",
-    "https://raw.githack.com/selenite-cc/flasharchive/main/Duck%20Life%201.swf",
-    "https://raw.githack.com/selenite-cc/flasharchive/main/Duck%20Life%202%20-%20World%20Champion.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Duck%20Life%203%20-%20Evolution.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Duck%20Life%204.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Breaking%20the%20Bank.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Escaping%20the%20Prison.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Fleeing%20the%20Complex.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Infiltrating%20the%20Airship.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Henry%20Stickmin%20-%20Stealing%20the%20Diamond.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Super%20Meat%20Boy.swf",
-    "https://github.com/selenite-cc/flasharchive/raw/main/Super%20Smash%20Flash.swf"
+    "https://thisismyaltaccountt.github.io/flasharchive/Duck%20Life%201.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Duck%20Life%202%20-%20World%20Champion.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Duck%20Life%203%20-%20Evolution.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Duck%20Life%204.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Breaking%20the%20Bank.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Escaping%20the%20Prison.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Fleeing%20the%20Complex.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Infiltrating%20the%20Airship.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Stealing%20the%20Diamond.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Super%20Meat%20Boy.swf",
+    "https://thisismyaltaccountt.github.io/flasharchive/Super%20Smash%20Flash.swf"
 ];
 
 var flashgames = [
