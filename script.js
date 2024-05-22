@@ -413,7 +413,15 @@ var HMR3_optionText = [
     "Super Meat Boy",
     "Super Smash Flash",
     "Alien Homid (Flash version?!?!?)",
-    "Angry Birds Halloween"
+    "Angry Birds Halloween",
+    "Angry Birds Rio",
+    "BTD1",
+    "BTD2",
+    "BTD3",
+    "BTD5",
+    "Happy Wheels",
+    "Plants VS Zombies",
+    "Run 2"
 ];
 
 var HMR3_optionValue = [
