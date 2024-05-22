@@ -411,7 +411,9 @@ var HMR3_optionText = [
     "Henry Stickmin - Infiltrating the Airship",
     "Henry Stickmin - Stealing the Diamond",
     "Super Meat Boy",
-    "Super Smash Flash"
+    "Super Smash Flash",
+    "Alien Homid (Flash version?!?!?)",
+    "Angry Birds Halloween"
 ];
 
 var HMR3_optionValue = [
@@ -817,7 +819,9 @@ var HMR3_optionValue = [
     "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Infiltrating%20the%20Airship.swf",
     "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Stealing%20the%20Diamond.swf",
     "https://thisismyaltaccountt.github.io/flasharchive/Super%20Meat%20Boy.swf",
-    "https://thisismyaltaccountt.github.io/flasharchive/Super%20Smash%20Flash.swf"
+    "https://thisismyaltaccountt.github.io/flasharchive/Super%20Smash%20Flash.swf",
+    "https://github.com/waitwhosjoe/Flash-Game-Archive/raw/main/Files/Flash/AlienHominid.swf",
+    "https://github.com/waitwhosjoe/Flash-Game-Archive/raw/main/Files/Flash/AngryBirdHalloween.swf"
 ];
 
 var flashgames = [
@@ -832,7 +836,9 @@ var flashgames = [
     "Henry Stickmin - Infiltrating the Airship",
     "Henry Stickmin - Stealing the Diamond",
     "Super Meat Boy",
-    "Super Smash Flash"
+    "Super Smash Flash",
+    "Alien Homid (Flash version?!?!?)",
+    "Angry Birds Halloween"
 ]
 
 var HMR3_nds = [
