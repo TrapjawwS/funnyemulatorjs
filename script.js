@@ -820,8 +820,16 @@ var HMR3_optionValue = [
     "https://thisismyaltaccountt.github.io/flasharchive/Henry%20Stickmin%20-%20Stealing%20the%20Diamond.swf",
     "https://thisismyaltaccountt.github.io/flasharchive/Super%20Meat%20Boy.swf",
     "https://thisismyaltaccountt.github.io/flasharchive/Super%20Smash%20Flash.swf",
-    "https://github.com/waitwhosjoe/Flash-Game-Archive/raw/main/Files/Flash/AlienHominid.swf",
-    "https://github.com/waitwhosjoe/Flash-Game-Archive/raw/main/Files/Flash/AngryBirdHalloween.swf"
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/AlienHominid.swf",
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/AngryBirdHalloween.swf",
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/AngryBirdsRio.swf",
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/BloonsTD.swf",
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/BloonsTD2.swf",
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/BloonsTD3.swf",
+    "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/bloons-tower-defense-5.swf",
+    "hhttps://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/HappyWheels.swf",
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/PlantsVsZombies.swf",
+    "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/run2.swf"
 ];
 
 var flashgames = [
@@ -838,7 +846,15 @@ var flashgames = [
     "Super Meat Boy",
     "Super Smash Flash",
     "Alien Homid (Flash version?!?!?)",
-    "Angry Birds Halloween"
+    "Angry Birds Halloween",
+    "Angry Birds Rio",
+    "BTD1",
+    "BTD2",
+    "BTD3",
+    "BTD5",
+    "Happy Wheels",
+    "Plants VS Zombies",
+    "Run 2"
 ]
 
 var HMR3_nds = [
