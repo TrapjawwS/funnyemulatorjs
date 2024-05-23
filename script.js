@@ -6,7 +6,7 @@ if (!link) {
     link.rel = 'icon';
     document.head.appendChild(link);
 }
-link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
+link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon-legacy.ico';
 
 var HMR3_optionText = [
     "Please Choose", 
