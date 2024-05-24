@@ -422,7 +422,8 @@ var HMR3_optionText = [
     "Happy Wheels",
     "Plants VS Zombies",
     "Run 2",
-    "Duck Life 5"
+    "Duck Life 5",
+    "Burrito Bison"
 ];
 
 var HMR3_optionValue = [
@@ -839,7 +840,8 @@ var HMR3_optionValue = [
     "hhttps://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/HappyWheels.swf",
     "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/PlantsVsZombies.swf",
     "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/run2.swf",
-    "https://github.com/mountain658/mountain658.github.io/raw/main/zswfs/ducklife5.swf"
+    "https://raw.githack.com/mountain658/mountain658.github.io/main/zswfs/ducklife5.swf",
+    "https://raw.githack.com/mountain658/mountain658.github.io/main/zswfs/burritobison.swf"
 ];
 
 var flashgames = [
@@ -865,7 +867,8 @@ var flashgames = [
     "Happy Wheels",
     "Plants VS Zombies",
     "Run 2",
-    "Duck Life 5"
+    "Duck Life 5",
+    "Burrito Bison"
 ]
 
 var HMR3_nds = [
