@@ -421,7 +421,8 @@ var HMR3_optionText = [
     "BTD5",
     "Happy Wheels",
     "Plants VS Zombies",
-    "Run 2"
+    "Run 2",
+    "Duck Life 5"
 ];
 
 var HMR3_optionValue = [
@@ -837,7 +838,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/bloons-tower-defense-5.swf",
     "hhttps://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/HappyWheels.swf",
     "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/PlantsVsZombies.swf",
-    "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/run2.swf"
+    "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/run2.swf",
+    "https://github.com/mountain658/mountain658.github.io/raw/main/zswfs/ducklife5.swf"
 ];
 
 var flashgames = [
@@ -862,7 +864,8 @@ var flashgames = [
     "BTD5",
     "Happy Wheels",
     "Plants VS Zombies",
-    "Run 2"
+    "Run 2",
+    "Duck Life 5"
 ]
 
 var HMR3_nds = [
