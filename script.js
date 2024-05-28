@@ -424,7 +424,6 @@ var HMR3_optionText = [
     "Run 2",
     "Duck Life 5",
     "Burrito Bison",
-    "Slow Roads"
 ];
 
 var HMR3_optionValue = [
@@ -843,7 +842,6 @@ var HMR3_optionValue = [
     "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/run2.swf",
     "https://raw.githack.com/mountain658/mountain658.github.io/main/zswfs/ducklife5.swf",
     "https://raw.githack.com/mountain658/mountain658.github.io/main/zswfs/burritobison.swf",
-    "slowroadsfiller"
 ];
 
 var flashgames = [
