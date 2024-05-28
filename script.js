@@ -837,7 +837,7 @@ var HMR3_optionValue = [
     "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/BloonsTD2.swf",
     "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/BloonsTD3.swf",
     "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/bloons-tower-defense-5.swf",
-    "hhttps://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/HappyWheels.swf",
+    "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/HappyWheels.swf",
     "https://raw.githack.com/waitwhosjoe/Flash-Game-Archive/main/Files/Flash/PlantsVsZombies.swf",
     "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/run2.swf",
     "https://raw.githack.com/mountain658/mountain658.github.io/main/zswfs/ducklife5.swf",
