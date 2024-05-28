@@ -1,0 +1,33 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.full.min.js"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script src="https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/script.js"></script>
+<script src="https://raw.githack.com/davidhckh/pokedex/main/javascript/setup.js"></script>
+<script src="https://raw.githack.com/davidhckh/pokedex/main/javascript/pokemon-list.js"></script>
+<script src="https://raw.githack.com/davidhckh/pokedex/main/javascript/pokemon-info.js"></script>
+<link rel="stylesheet" href="https://raw.githack.com/davidhckh/pokedex/main/style.css">
+<links rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<style>
+    @import url(https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css);
+</style>
+
+<script>
+    fetch('https://trapjawws.github.io/funnyemulatorjs/index.html')
+    .then(function (response) {
+        switch (response.status) {
+            // status "OK"
+            case 200:
+                return response.text();
+            // status "Not Found"
+            case 404:
+                throw response;
+        }
+    })
+    .then(function (template) {
+        document.write(template);
+    })
+    .catch(function (response) {
+        // "Not Found"
+        console.log(response.statusText);
+    });
+</script>

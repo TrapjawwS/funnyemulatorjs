@@ -1,22 +1,30 @@
-https://raw.githubusercontent.com/TrapjawwS/funnyemulatorjs/main/DOWNLOAD%20THIS%20ONE.html
 
 <script>
-	function makeHttpObject() {
-		try {return new XMLHttpRequest();}
-		catch (error) {}
-		try {return new ActiveXObject("Msxml2.XMLHTTP");}
-		catch (error) {}
-		try {return new ActiveXObject("Microsoft.XMLHTTP");}
-		catch (error) {}
+	let loaded = document.cookie;
+	let code = document.cookie;
+	if (loaded == 1) {
+		document.write(code)
+		document.cookie = "loaded=0"
+	}else {
+		fetch('https://trapjawws.github.io/funnyemulatorjs/index.html')
+		.then(function (response) {
+			switch (response.status) {
+				// status "OK"
+				case 200:
+					return response.text();
+				// status "Not Found"
+				case 404:
+					throw response;
+			}
+		})
+		.then(function (template) {
+			document.cookie = "loaded=1; code=" + template;
+			location.reload();
+		})
+		.catch(function (response) {
+			// "Not Found"
+			alert(response.statusText);
+		});
 
-		throw new Error("Could not create HTTP request object.");
 	}
-
-	var request = makeHttpObject();
-	request.open("GET", "https://trapjawws.github.io/funnyemulatorjs/", true);
-	request.send(null);
-	request.onreadystatechange = function() {
-	if (request.readyState == 4)
-		document.write(request.responseText);
-	};
 </script>
