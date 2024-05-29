@@ -424,6 +424,13 @@ var HMR3_optionText = [
     "Run 2",
     "Duck Life 5",
     "Burrito Bison",
+    "10 Minutes till Dawn",
+    "2048",
+    "Celeste",
+    "Space Bar Clicker",
+    "Stack",
+    "Stickman Hook",
+    "Tanuki Sunset"
 ];
 
 var HMR3_optionValue = [
@@ -842,6 +849,13 @@ var HMR3_optionValue = [
     "https://raw.githack.com/SJRNoodles/Flash-Game-Archive/master/run2.swf",
     "https://raw.githack.com/mountain658/mountain658.github.io/main/zswfs/ducklife5.swf",
     "https://raw.githack.com/mountain658/mountain658.github.io/main/zswfs/burritobison.swf",
+    "10 Minutes till Dawn filler",
+    "2048 filler",
+    "Celeste filler",
+    "Space Bar Clicker filler",
+    "Stack filler",
+    "Stickman Hook filler",
+    "Tanuki Sunset filler"
 ];
 
 var flashgames = [
@@ -898,6 +912,17 @@ var HMR3_SNES = [
 
 var HMR3_SEGAMS = [
     
+]
+
+var HMR3_HTML = [
+    "10 Minutes till Dawn",
+    "2048",
+    "Celeste",
+    "Space Bar Clicker",
+    "Stack",
+    "Stickman Hook",
+    "Tanuki Sunset"
+
 ]
 
 

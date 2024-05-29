@@ -1,30 +1,31 @@
 
 <script>
-	let loaded = document.cookie;
-	let code = document.cookie;
-	if (loaded == 1) {
-		document.write(code)
-		document.cookie = "loaded=0"
-	}else {
-		fetch('https://trapjawws.github.io/funnyemulatorjs/index.html')
-		.then(function (response) {
-			switch (response.status) {
-				// status "OK"
-				case 200:
-					return response.text();
-				// status "Not Found"
-				case 404:
-					throw response;
-			}
-		})
-		.then(function (template) {
-			document.cookie = "loaded=1; code=" + template;
-			location.reload();
-		})
-		.catch(function (response) {
-			// "Not Found"
-			alert(response.statusText);
-		});
+	fetch('https://trapjawws.github.io/funnyemulatorjs/index.html')
+	.then(function (response) {
+		switch (response.status) {
+			// status "OK"
+			case 200:
+				return response.text();
+			// status "Not Found"
+			case 404:
+				throw response;
+		}
+	})
+	.then(function (template) {
 
-	}
+		window.location.replace("https://clever.com/in/stratfordschools");
+
+		var W = window.open();  // create a new window
+
+		W.document.open(); // create a write-stream to this window
+
+		W.document.write(template); // add some HTML
+
+		W.document.close(); // close it off
+		
+	})
+	.catch(function (response) {
+		// "Not Found"
+		alert(response.statusText);
+	});
 </script>
