@@ -1,4 +1,4 @@
-MAJOR UPDATE #2!!!!! NOW IT DOES NOT RECORD IN YOUR HISTORY (As long as you download the file) 5/29/24
+MAJOR UPDATE #2!!!!! NOW IT DOES NOT RECORD IN YOUR HISTORY (As long as you download the file (it only works half the time for some reason :( )) 5/29/24
 
 MAJOR UPDATE!!!!!! I ADDED THE RUFFLE EMULATOR! FLASH GAMES NOW WORK 5/22/24
 
