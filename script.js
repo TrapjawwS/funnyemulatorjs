@@ -858,7 +858,7 @@ var HMR3_optionValue = [
     "Stickman Hook filler",
     "Tanuki Sunset filler",
     "slowroads filler",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/Pokemon - Red Version (UE)[!].zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/pokemonred.zip"
 
 ];
 
