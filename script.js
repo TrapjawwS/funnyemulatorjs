@@ -857,7 +857,6 @@ var HMR3_optionValue = [
     "Stack filler",
     "Stickman Hook filler",
     "Tanuki Sunset filler",
-    "slowroads filler",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/pokemonred.zip"
 
 ];
@@ -925,8 +924,7 @@ var HMR3_HTML = [
     "Space Bar Clicker",
     "Stack",
     "Stickman Hook",
-    "Tanuki Sunset",
-    "Slowroads (TEST)"
+    "Tanuki Sunset"
 
 ]
 
