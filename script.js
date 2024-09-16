@@ -430,7 +430,8 @@ var HMR3_optionText = [
     "Space Bar Clicker",
     "Stack",
     "Stickman Hook",
-    "Tanuki Sunset"
+    "Tanuki Sunset",
+    "Pokemon Red"
 ];
 
 var HMR3_optionValue = [
@@ -855,7 +856,10 @@ var HMR3_optionValue = [
     "Space Bar Clicker filler",
     "Stack filler",
     "Stickman Hook filler",
-    "Tanuki Sunset filler"
+    "Tanuki Sunset filler",
+    "slowroads filler",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/Pokemon - Red Version (UE)[!].zip"
+
 ];
 
 var flashgames = [
@@ -921,7 +925,8 @@ var HMR3_HTML = [
     "Space Bar Clicker",
     "Stack",
     "Stickman Hook",
-    "Tanuki Sunset"
+    "Tanuki Sunset",
+    "Slowroads (TEST)"
 
 ]
 
