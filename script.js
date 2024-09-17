@@ -1,14 +1,12 @@
-<script>
-    document.title = "Home | Schoology"
+document.title = "Home | Schoology"
 
-    var link = document.querySelector("link[rel~='icon']");
-    if (!link) {
-        link = document.createElement('link');
-        link.rel = 'icon';
-        document.head.appendChild(link);
-    }
-    link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
-</script>
+var link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.head.appendChild(link);
+}
+link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
 
 var HMR3_optionText = [
     "Please Choose", 
