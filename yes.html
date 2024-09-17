@@ -14,6 +14,18 @@ EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/
 </script>
 <script src='https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js'></script>
 
+<script>
+    document.title = "Home | Schoology"
+
+    var link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.head.appendChild(link);
+    }
+    link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
+</script>
+
 <style>
     .game {
         width: 100%;
