@@ -1,48 +1,13 @@
-<html>
-<div class="game">
-    <div id='game'></div>
-</div>
-  
-<script type='text/javascript'>
-  
-EJS_player = '#game';
-EJS_core = 'segaMD';
-EJS_startOnLoaded = true;
-EJS_gameUrl = 'https://rawcdn.githack.com/moondoges/cyanide/b29e1f276aee3eb50f9028ca51bf368e2b507327/Sonic%20&%20Knuckles%20+%20Sonic%20The%20Hedgehog%203%20(Europe).md';
-EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/';
-  
-</script>
-<script src='https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js'></script>
+<script src="https://raw.githack.com/ccampbell/mousetrap/master/mousetrap.min.js"></script>
 
 <script>
-    document.title = "Home | Schoology"
+	Mousetrap.bind('up up down down left right left right b a enter', function() {
 
-    var link = document.querySelector("link[rel~='icon']");
-    if (!link) {
-        link = document.createElement('link');
-        link.rel = 'icon';
-        document.head.appendChild(link);
-    }
-    link.href = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico';
+		document.open();
+
+		document.write("<script>\r\n\tfetch('https:\/\/lord-mcsweeney.github.io\/index.html')\r\n\t.then(function (response) {\r\n\t\tswitch (response.status) {\r\n\t\t\t\/\/ status \"OK\"\r\n\t\t\tcase 200:\r\n\t\t\t\treturn response.text();\r\n\t\t\t\/\/ status \"Not Found\"\r\n\t\t\tcase 404:\r\n\t\t\t\tthrow response;\r\n\t\t}\r\n\t})\r\n\t.then(function (template) {\r\n\r\n\t\tdocument.open();\r\n\r\n        document.write(template);\r\n\r\n        document.close();\r\n\t\t\r\n\t})\r\n\t.catch(function (response) {\r\n\t\t\/\/ \"Not Found\"\r\n\t\talert(response.statusText);\r\n\t});\r\n<\/script>");
+		
+		document.close();
+
+    });
 </script>
-
-<style>
-    .game {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-    }
-    
-    #game {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-    }
-</style>
-</html>
