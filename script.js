@@ -430,7 +430,11 @@ var HMR3_optionText = [
     "Stack",
     "Stickman Hook",
     "Tanuki Sunset",
-    "Pokemon Red"
+    "Pokemon Red",
+    "Lilo and Stich",
+    "Advance Wars 2",
+    "Advance Wars 1",
+    "Tetris Attack"
 ];
 
 var HMR3_optionValue = [
@@ -855,7 +859,11 @@ var HMR3_optionValue = [
     "Stack filler",
     "Stickman Hook filler",
     "Tanuki Sunset filler",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/pokemonred.zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/pokemonred.zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Lilo%20%26%20Stitch%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Advance%20Wars%202%20-%20Black%20Hole%20Rising%20(USA).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Advance%20Wars%20(USA)%20(Rev%201).zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Tetris%20Attack%20(USA%2C%20Europe)%20(Rev%201)%20(SGB%20Enhanced).zip"
 
 ];
 

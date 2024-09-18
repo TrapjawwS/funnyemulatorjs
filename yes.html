@@ -3,11 +3,7 @@
 <script>
 	Mousetrap.bind('up up down down left right left right b a enter', function() {
 
-		document.open();
-
-		document.write("<script>\r\n\tfetch('https:\/\/lord-mcsweeney.github.io\/index.html')\r\n\t.then(function (response) {\r\n\t\tswitch (response.status) {\r\n\t\t\t\/\/ status \"OK\"\r\n\t\t\tcase 200:\r\n\t\t\t\treturn response.text();\r\n\t\t\t\/\/ status \"Not Found\"\r\n\t\t\tcase 404:\r\n\t\t\t\tthrow response;\r\n\t\t}\r\n\t})\r\n\t.then(function (template) {\r\n\r\n\t\tdocument.open();\r\n\r\n        document.write(template);\r\n\r\n        document.close();\r\n\t\t\r\n\t})\r\n\t.catch(function (response) {\r\n\t\t\/\/ \"Not Found\"\r\n\t\talert(response.statusText);\r\n\t});\r\n<\/script>");
-		
-		document.close();
+		alert("skibidi");
 
     });
 </script>
