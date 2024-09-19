@@ -436,7 +436,8 @@ var HMR3_optionText = [
     "Advance Wars 1",
     "Tetris Attack",
     "Warioware Micro Games",
-    "Dr. Mario & Puzzle League"
+    "Dr. Mario & Puzzle League",
+    "Puyo Pop"
 ];
 
 var HMR3_optionValue = [
@@ -867,7 +868,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Advance%20Wars%20(USA)%20(Rev%201).zip",
     "https://raw.githack.com/vbaemulator/GB-Roms/main/Tetris%20Attack%20(USA%2C%20Europe)%20(Rev%201)%20(SGB%20Enhanced).zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/warioware.zip",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/puzzleleague.zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/puzzleleague.zip",
+    "https://raw.githack.com/vbaemulator/GBA-Roms/main/Puyo%20Pop%20(USA)%20(En%2CJa).zip"
 
 ];
 
