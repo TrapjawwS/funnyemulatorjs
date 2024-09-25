@@ -1,9 +1,57 @@
-<script src="https://raw.githack.com/ccampbell/mousetrap/master/mousetrap.min.js"></script>
 
-<script>
-	Mousetrap.bind('up up down down left right left right b a enter', function() {
 
-		alert("skibidi");
 
-    });
+<div class="game">
+    <div id='game'></div>
+</div>
+
+<script type='text/javascript'>
+  
+EJS_player = '#game';
+EJS_core = 'gba';
+EJS_startOnLoaded = true;
+EJS_gameUrl = 'https://raw.githack.com/srojam/gba/gh-pages/Binaries/kirbynightmare.gba';
+EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/';
+
+function runScript(bookmarklet) {
+
+// Run the script after a 0.5-second delay
+setTimeout(() => {
+	try {
+		// Use eval to execute the script
+		eval(bookmarklet);
+	} catch (error) {
+		console.error('Error executing script:', error);
+		alert('An error occured while executing the bookmarklet. Try double checking the code of the bookmarklet.');
+	}
+
+}, 500); // 500 milliseconds (0.5 seconds) delay
+}
+
+const bookmarkletcode = "javascript:(function()%7B(function() %7Bvar x %3D document.createElement(\"script\")%3Bx.src %3D \"https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSnowLord7%2Fdevconsole%40master%2Fmain.js\"%3Bx.onload %3D alert(\"Loaded Developer Console!\")%3Bdocument.head.appendChild(x)%3B%7D)()%7D)()"
+
+runScript(decodeURIComponent(bookmarkletcode));
+
+
 </script>
+<script src='https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js'></script>
+
+<style>
+    .game {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+    
+    #game {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+</style>
