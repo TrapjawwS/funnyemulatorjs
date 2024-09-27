@@ -439,7 +439,14 @@ var HMR3_optionText = [
     "Dr. Mario & Puzzle League",
     "Puyo Pop",
     "Mario Kart DS",
-    "Pokemon Heart Gold"
+    "Pokemon Heart Gold",
+    "New Super Mario Bros",
+    "Need For Speed Prostreet",
+    "M&M Kart",
+    "Mario and Luigi: Partners in Time",
+    "Mario and Luigi: Bowser's Inside Story",
+    "Cartoon Network Racing",
+    "Call of Duty: Black Ops (it sucks)"
 ];
 
 var HMR3_optionValue = [
@@ -873,7 +880,15 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/puzzleleague.zip",
     "https://raw.githack.com/vbaemulator/GBA-Roms/main/Puyo%20Pop%20(USA)%20(En%2CJa).zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/mariokartds.zip",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/heartgold.zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/heartgold.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/newmario.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/nfsprostreet.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/mlpartnersintime.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/mlbowsersinsidestory.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/mmkart.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/cookingmama.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/cnracing.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/codbo.zip"
 
 ];
 
@@ -908,7 +923,14 @@ var HMR3_nds = [
     "Garfield Gets Real",
     "Kirby Mass Attack",
     "Mario Kart DS",
-    "Pokemon Heart Gold"
+    "Pokemon Heart Gold",
+    "New Super Mario Bros",
+    "Need For Speed Prostreet",
+    "M&M Kart",
+    "Mario and Luigi: Partners in Time",
+    "Mario and Luigi: Bowser's Inside Story",
+    "Cartoon Network Racing",
+    "Call of Duty: Black Ops (it sucks)"
 ]
 
 var HMR3_arcade = [
