@@ -442,9 +442,10 @@ var HMR3_optionText = [
     "Pokemon Heart Gold",
     "New Super Mario Bros",
     "Need For Speed Prostreet",
-    "M&M Kart",
     "Mario and Luigi: Partners in Time",
     "Mario and Luigi: Bowser's Inside Story",
+    "M&M Kart",
+    "Cooking Mama",
     "Cartoon Network Racing",
     "Call of Duty: Black Ops (it sucks)"
 ];
