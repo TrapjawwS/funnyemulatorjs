@@ -448,7 +448,8 @@ var HMR3_optionText = [
     "Cooking Mama",
     "Cartoon Network Racing",
     "Call of Duty: Black Ops (it sucks)",
-    "Cookie Clicker"
+    "Cookie Clicker",
+    "Doom"
 ];
 
 var HMR3_optionValue = [
@@ -891,7 +892,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/cookingmama.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/cnracing.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/codbo.zip",
-    "https://uniub.github.io/UniUBGamefiles/gamefiles/cookie-clicker/index.html"
+    "https://uniub.github.io/UniUBGamefiles/gamefiles/cookie-clicker/index.html",
+    "data:application/xhtml+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiID8+CjwhRE9DVFlQRSBodG1sIFBVQkxJQyAiLS8vVzNDLy9EVEQgWEhUTUwgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMTEvRFREL3hodG1sMTEuZHRkIj4KPGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIGxhbmc9ImVuIj4KCTxoZWFkPgoJCTxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sO2NoYXJzZXQ9dXRmLTgiIC8+CgkJPG1ldGEgaHR0cC1lcXVpdj0iUmVmZXJyZXItUG9saWN5IiBjb250ZW50PSJuby1yZWZlcnJlciIgLz4KCQk8bWV0YSBuYW1lPSJyZWZlcnJlciIgY29udGVudD0ibm8tcmVmZXJyZXIiIC8+CgkJPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCxpbml0aWFsLXNjYWxlPTEiIC8+CgkJPGJhc2UgaHJlZj0iaHR0cHM6Ly9uZXR0bGV3ZWIucGFnZXMuZGV2IiB0YXJnZXQ9Il9ibGFuayIgLz4KCQk8bGluayByZWw9Imljb24iIHR5cGU9ImltYWdlL3gtaWNvbiIgaHJlZj0icmVzL2dvb2dsZS5pY28iIC8+CgkJPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iZGF0YTp0ZXh0L2NzcztiYXNlNjQsWW05a2VTeGxiV0psWkN4cFpuSmhiV1Y3Y0c5emFYUnBiMjQ2WVdKemIyeDFkR1U3WkdsemNHeGhlVHBpYkc5amF6dDNhV1IwYURveE1EQWxPMmhsYVdkb2REb3hNREFsTzIxaGNtZHBiam93Y0hnN2NHRmtaR2x1Wnpvd2NIZzdZbTl5WkdWeU9tNXZibVU3YjNabGNtWnNiM2M2YUdsa1pHVnVPMzBLIiAvPgoJCTx0aXRsZT5Hb29nbGU8L3RpdGxlPgoJPC9oZWFkPgoJPGJvZHk+CgkJPGVtYmVkIHR5cGU9InRleHQvcGxhaW4iIHdpZHRoPSIxMDI0IiBoZWlnaHQ9Ijc2OCIgc3JjPSIvcGxheWVyLmh0bWw/bmFtZT1Eb29tJmFtcDt0eXBlPWRvcyZhbXA7dXJsPSUyRnIlMkZiOWMxNmE3OC0yYTliLTQyZGQtODljMC0zYTNlY2E5MzVlMjgiIC8+Cgk8L2JvZHk+CjwvaHRtbD4="
 
 ];
 
@@ -973,7 +975,8 @@ var HMR3_HTML = [
 ]
 
 var HMR3_Multifile = [
-    "Cookie Clicker"
+    "Cookie Clicker",
+    "Doom"
 ]
 
 
