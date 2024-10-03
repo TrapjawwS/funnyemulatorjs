@@ -1,36 +1,15 @@
-<html>
-<div class="game">
-    <div id='game'></div>
-</div>
-  
-<script type='text/javascript'>
-
-EJS_player = '#game';
-EJS_core = 'gba';
-EJS_startOnLoaded = true;
-EJS_gameUrl = 'https://raw.githack.com/vbaemulator/GBA-Roms/main/Puyo%20Pop%20(USA)%20(En%2CJa).zip';
-EJS_pathtodata = 'https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/';
-  
+<script>
+	let win = window.open('about:blank');
+	
+	win.document.body.style.margin = '0';
+	win.document.body.style.height = '100vh';
+	
+	let embed = win.document.createElement('embed');
+	embed.style.border = 'none';
+	embed.style.width = '100%';
+	embed.style.height = '100%';
+	embed.style.margin = '0';
+	embed.src = "trapjawws.github.io/funnyemulatorjs";
+	
+	win.document.body.appendChild(embed);
 </script>
-<script src='https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs@main/data/loader.js'></script>
-
-<style>
-    .game {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-    }
-    
-    #game {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-    }
-</style>
-</html>

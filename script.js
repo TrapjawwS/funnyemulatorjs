@@ -447,7 +447,8 @@ var HMR3_optionText = [
     "M&M Kart",
     "Cooking Mama",
     "Cartoon Network Racing",
-    "Call of Duty: Black Ops (it sucks)"
+    "Call of Duty: Black Ops (it sucks)",
+    "Cookie Clicker"
 ];
 
 var HMR3_optionValue = [
@@ -889,7 +890,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/mmkart.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/cookingmama.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/cnracing.zip",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/codbo.zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/codbo.zip",
+    "https://uniub.github.io/UniUBGamefiles/gamefiles/cookie-clicker/index.html"
 
 ];
 
@@ -965,8 +967,13 @@ var HMR3_HTML = [
     "Space Bar Clicker",
     "Stack",
     "Stickman Hook",
-    "Tanuki Sunset"
+    "Tanuki Sunset",
+    
 
+]
+
+var HMR3_Multifile = [
+    "Cookie Clicker"
 ]
 
 
