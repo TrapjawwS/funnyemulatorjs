@@ -454,7 +454,12 @@ var HMR3_optionText = [
     "Bad Time Simulator",
     "Ballistic Chickens",
     "Snake",
-    "Chess"
+    "Chess",
+    "JsPaint",
+    "Crossy Road",
+    "Subway Surfers",
+    "Temple Run 2",
+    "Polytrack (old version)"
 ];
 
 var HMR3_optionValue = [
@@ -903,7 +908,12 @@ var HMR3_optionValue = [
     "https://thisismyaltaccountt.github.io/games/sans/index.html",
     "https://trapjawws.github.io/seraph/games/ballisticchickens/index.html",
     "https://trapjawws.github.io/seraph/games/snake/index.html",
-    "https://trapjawws.github.io/seraph/games/chess/index.html"
+    "https://trapjawws.github.io/seraph/games/chess/index.html",
+    "https://thisismyaltaccountt.github.io/jspaint",
+    "https://thisismyaltaccountt.github.io/moregames/crossy-road",
+    "https://thisismyaltaccountt.github.io/moregames/subway-surfers",
+    "https://thisismyaltaccountt.github.io/moregames/temple-run-2",
+    "https://thisismyaltaccountt.github.io/moregames/polytrack"
 
 ];
 
@@ -991,7 +1001,12 @@ var HMR3_Multifile = [
     "Bad Time Simulator",
     "Ballistic Chickens",
     "Snake",
-    "Chess"
+    "Chess",
+    "JsPaint",
+    "Crossy Road",
+    "Subway Surfers",
+    "Temple Run 2",
+    "Polytrack (old version)"
 ]
 
 
