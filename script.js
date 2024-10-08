@@ -1008,7 +1008,7 @@ var HMR3_Multifile = [
     "Crossy Road",
     "Subway Surfers",
     "Temple Run 2",
-    "Polytrack (old version)",
+    "Polytrack",
     "LAST BREATH"
 ]
 
