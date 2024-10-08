@@ -459,7 +459,7 @@ var HMR3_optionText = [
     "Crossy Road",
     "Subway Surfers",
     "Temple Run 2",
-    "Polytrack (old version)",
+    "Polytrack",
     "LAST BREATH"
 ];
 
@@ -914,7 +914,7 @@ var HMR3_optionValue = [
     "https://thisismyaltaccountt.github.io/moregames/crossy-road",
     "https://thisismyaltaccountt.github.io/moregames/subway-surfers",
     "https://thisismyaltaccountt.github.io/moregames/temple-run-2",
-    "https://thisismyaltaccountt.github.io/moregames/polytrack",
+    "https://blobby-boi.github.io/polytrack/",
     "https://thisismyaltaccountt.github.io/LAST-BREATH/"
 
 ];
