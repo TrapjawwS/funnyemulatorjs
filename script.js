@@ -460,7 +460,8 @@ var HMR3_optionText = [
     "Subway Surfers",
     "Temple Run 2",
     "Polytrack",
-    "LAST BREATH"
+    "LAST BREATH",
+    "Top Speed Racing 3d"
 ];
 
 var HMR3_optionValue = [
@@ -915,7 +916,8 @@ var HMR3_optionValue = [
     "https://thisismyaltaccountt.github.io/moregames/subway-surfers",
     "https://thisismyaltaccountt.github.io/moregames/temple-run-2",
     "https://blobby-boi.github.io/polytrack/",
-    "https://thisismyaltaccountt.github.io/LAST-BREATH/"
+    "https://thisismyaltaccountt.github.io/LAST-BREATH/",
+    "https://artedu1808.github.io/g/top-speed-racing-3d"
 
 ];
 
@@ -1009,7 +1011,8 @@ var HMR3_Multifile = [
     "Subway Surfers",
     "Temple Run 2",
     "Polytrack",
-    "LAST BREATH"
+    "LAST BREATH",
+    "Top Speed Racing 3d"
 ]
 
 
