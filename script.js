@@ -461,7 +461,18 @@ var HMR3_optionText = [
     "Temple Run 2",
     "Polytrack",
     "LAST BREATH",
-    "Top Speed Racing 3d"
+    "Yggdra Union",
+    "Wario Land 4",
+    "TMNT",
+    "Puzzle Fighter 2",
+    "Racing Gears Advance",
+    "Pinball of the Dead",
+    "Koro Koro Puzzle",
+    "Juka and the Monophonic Menace",
+    "Iridion 2",
+    "Invader",
+    "Drill Dozer",
+    "Astro Boy Omega Factor"
 ];
 
 var HMR3_optionValue = [
@@ -917,7 +928,18 @@ var HMR3_optionValue = [
     "https://thisismyaltaccountt.github.io/moregames/temple-run-2",
     "https://blobby-boi.github.io/polytrack/",
     "https://thisismyaltaccountt.github.io/LAST-BREATH/",
-    "https://artedu1808.github.io/g/top-speed-racing-3d"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/yggdraunion.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/warioland4.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/tmnt.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/puzzlefighter2.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/racinggears.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/pinballofthedead.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/korokoropuzzle.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/jujaandthemonphonicmenace.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/iridion2.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/invader.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/drilldozer.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/astroboyomegafactor.zip"
 
 ];
 
