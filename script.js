@@ -473,7 +473,8 @@ var HMR3_optionText = [
     "Iridion 2",
     "Invader",
     "Drill Dozer",
-    "Astro Boy Omega Factor"
+    "Astro Boy Omega Factor",
+    "Godzilla Domination"
 ];
 
 var HMR3_optionValue = [
@@ -941,7 +942,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/iridion2.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/invader.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/drilldozer.zip",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/astroboyomegafactor.zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/astroboyomegafactor.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/godzilladomination.zip"
 
 ];
 
