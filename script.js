@@ -474,7 +474,9 @@ var HMR3_optionText = [
     "Invader",
     "Drill Dozer",
     "Astro Boy Omega Factor",
-    "Godzilla Domination"
+    "Godzilla Domination",
+    "Metal Slug Advance",
+    "Puyo Pop Fever"
 ];
 
 var HMR3_optionValue = [
@@ -943,7 +945,9 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/invader.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/drilldozer.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/astroboyomegafactor.zip",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/godzilladomination.zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/godzilladomination.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/metalslugadvance.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/puyopopfever.zip"
 
 ];
 
