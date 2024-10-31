@@ -477,7 +477,11 @@ var HMR3_optionText = [
     "Godzilla Domination",
     "Metal Slug Advance",
     "Puyo Pop Fever",
-    "Apotris (Better tetris)"
+    "Apotris (Better tetris)",
+    "Bloxorz",
+    "Super Mario 63",
+    "Dad 'n Me",
+    "Super Mario Sunshine 64"
 ];
 
 var HMR3_optionValue = [
@@ -949,7 +953,11 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/godzilladomination.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/metalslugadvance.zip",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/puyopopfever.zip",
-    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/apotris.zip"
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/apotris.zip",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/bloxors.swf",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/supermario63.swf",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/dadnme.swf",
+    "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/super-mario-sunshine-64.swf",
 
 ];
 
@@ -977,7 +985,11 @@ var flashgames = [
     "Plants VS Zombies",
     "Run 2",
     "Duck Life 5",
-    "Burrito Bison"
+    "Burrito Bison",
+    "Bloxorz",
+    "Super Mario 63",
+    "Dad 'n Me",
+    "Super Mario Sunshine 64"
 ]
 
 var HMR3_nds = [
