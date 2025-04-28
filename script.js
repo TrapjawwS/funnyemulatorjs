@@ -961,7 +961,7 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/dadnme.swf",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/super-mario-sunshine-64.swf",
     "https://thisismyaltaccountt.github.io/cattle3d/",
-    "https://crazycattle3d.fun/cheese-chompers-3d"
+    "https://cheesechompers3d.io/"
 
 ];
 
