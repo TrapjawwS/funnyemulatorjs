@@ -482,7 +482,8 @@ var HMR3_optionText = [
     "Super Mario 63",
     "Dad 'n Me",
     "Super Mario Sunshine 64",
-    "Crazy Cattle 3d"
+    "Crazy Cattle 3d",
+    "Cheese Chompers 3d (WIP)"
 ];
 
 var HMR3_optionValue = [
@@ -959,7 +960,8 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/supermario63.swf",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/dadnme.swf",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/super-mario-sunshine-64.swf",
-    "https://thisismyaltaccountt.github.io/cattle3d/"
+    "https://thisismyaltaccountt.github.io/cattle3d/",
+    "https://crazycattle3d.fun/cheese-chompers-3d"
 
 ];
 
@@ -1059,7 +1061,8 @@ var HMR3_Multifile = [
     "Polytrack",
     "LAST BREATH",
     "Top Speed Racing 3d",
-    "Crazy Cattle 3d"
+    "Crazy Cattle 3d",
+    "Cheese Chompers 3d (WIP)"
 ]
 
 
