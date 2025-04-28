@@ -481,7 +481,8 @@ var HMR3_optionText = [
     "Bloxorz",
     "Super Mario 63",
     "Dad 'n Me",
-    "Super Mario Sunshine 64"
+    "Super Mario Sunshine 64",
+    "Crazy Cattle 3d"
 ];
 
 var HMR3_optionValue = [
@@ -958,6 +959,7 @@ var HMR3_optionValue = [
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/supermario63.swf",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/dadnme.swf",
     "https://raw.githack.com/TrapjawwS/funnyemulatorjs/main/roms/super-mario-sunshine-64.swf",
+    "https://www.crazycattle.org/"
 
 ];
 
@@ -1056,7 +1058,8 @@ var HMR3_Multifile = [
     "Temple Run 2",
     "Polytrack",
     "LAST BREATH",
-    "Top Speed Racing 3d"
+    "Top Speed Racing 3d",
+    "Crazy Cattle 3d"
 ]
 
 
